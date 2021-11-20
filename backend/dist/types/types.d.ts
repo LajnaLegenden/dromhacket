@@ -9,4 +9,5 @@ export interface IPhoto {
     data: string;
     fileName: string;
     uploadedBy: string;
+    time: number;
 }

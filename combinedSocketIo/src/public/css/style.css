@@ -1,0 +1,41 @@
+html {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background-image: url(/public/css/wp2646803.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
+  margin: 0;
+  overflow: hidden;
+}
+
+.buttonDiv {
+  width: 100%;
+  background-color: darkslategray;
+  height: 4em;
+  position: absolute;
+  bottom: 0;
+}
+
+.buttonDiv button {
+  margin-left: 40%;
+  border-radius: 10%;
+  width: 80px;
+}
+
+video {
+  min-width: inherit;
+  min-height: inherit;
+}
+.settings {
+}
+
+canvas {
+  position: absolute;
+  top: -1000;
+  left: -100;
+}

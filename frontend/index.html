@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,16 +10,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
-<body>
-    <div class="buttonDiv">
-        <button id="cameraBtn"><p>Snap  <i class="fa fa-camera"></i></p></button>
-        
-    </div>
 
-    <div class="display-cover">
-        <video autoplay></video>
-        <canvas style="opacity: 0;" height="1" width="1"></canvas>
-    </div>    
+<body>
+    <video autoplay></video>
+    <div class="buttonDiv">
+        <button id="cameraBtn">
+            <p>Snap <i class="fa fa-camera"></i></p>
+        </button>
+    </div>
+    <canvas style="display:none;opacity: 0;" height="1" width="1"></canvas>
+    <div class="settings">
+        <select name="eventSelect" id="eventSelect">
+
+        </select>
+    </div>
 </body>
+<script src="api.js" defer></script>
 <script src="script.js"></script>
+
 </html>
